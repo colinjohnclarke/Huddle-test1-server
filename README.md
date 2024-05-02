@@ -1,4 +1,4 @@
-Node.js and Express.js Server
+**Node.js and Express.js Server**
 This is a simple Node.js and Express.js server that you can use as a starting point for your project. It includes a basic setup for handling HTTP requests and provides a dummy array to simulate data retrieval.
 
 **Getting Started**

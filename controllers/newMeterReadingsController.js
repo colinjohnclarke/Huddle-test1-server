@@ -22,7 +22,11 @@ const addNewMeterReading = async (req, res) => {
     // POSTGRES DB QUERY
 
     dummydata.push({ id, date, readingValue, type });
-    const findHouseWithId = dummydata.filter((house) => house.id === id);
+
+    const newArr = [...dummydata];
+    console.log(id);
+
+    let findHouseWithId = newArr.filter((house) => house.id === id);
 
     // findHouseWithId.push({ id, date, readingValue, type });
     console.log(findHouseWithId);
